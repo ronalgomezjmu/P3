@@ -1,0 +1,27 @@
+//succeeds
+fetch("https://openai80.p.rapidapi.com/chat/completions", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "expires": "0",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    // "sec-fetch-site": "same-site",
+    "usequerystring": "true",
+    "x-rapidapi-host": "openai80.p.rapidapi.com",
+    "x-rapidapi-key": "8f088bac16mshf949f099af09f09p19a0ffjsnd3ce7bc3125a",
+    // "x-rapidapi-ua": "RapidAPI-Playground"
+  },
+  "referrer": "https://rapidapi.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"model\":\"gpt-3.5-turbo\",\"messages\":[{\"role\":\"user\",\"content\":\"Hello!\"}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+});
